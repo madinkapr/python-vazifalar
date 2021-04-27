@@ -35,3 +35,11 @@ for son in sonlar:
 print(yigindi) 
 print(12+2+4+56+66+66+44+98)
 
+print("\nEx5: \n [23,12,2,43,4,56,7,45] dagi toq sonlarni tartiblangan, kamayish tartibida console ga chiqaring.")
+sonlar = [23,12,2,43,4,56,7,45] 
+toq_sonlar = []
+for son in sonlar:
+  if son%2 != 0:
+    toq_sonlar.append(son)
+toq_sonlar.sort(reverse=True)    
+print(toq_sonlar)
