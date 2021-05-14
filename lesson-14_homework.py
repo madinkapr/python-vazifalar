@@ -241,16 +241,16 @@ print('Ex-3')
 #   ball.append(v)
 # print(inst)
 # print(ball)  
-print('Ex-4')
-taomlar = ['Qazon kabob', 'Lagmon', 'Manti', 'Somsa', 'Polov', 'Teftel']
-taom_turi = ['Gosht', 'Xamir', 'Xamir', 'Xamir', 'Guruch', 'Gosht']
-ismlar = ['Dad', 'Mom', 'Unkle', 'Aunt', 'nephew', 'niece']
-res = {}
-n = len(taomlar)
-for i in range(n):
-  x = taomlar[i]
-  y = taom_turi[i]
-  z = ismlar[i]
-  if y == 'Xamir':
-    res[z] = x
-print(res)
+# print('Ex-4')
+# taomlar = ['Qazon kabob', 'Lagmon', 'Manti', 'Somsa', 'Polov', 'Teftel']
+# taom_turi = ['Gosht', 'Xamir', 'Xamir', 'Xamir', 'Guruch', 'Gosht']
+# ismlar = ['Dad', 'Mom', 'Unkle', 'Aunt', 'nephew', 'niece']
+# res = {}
+# n = len(taomlar)
+# for i in range(n):
+#   x = taomlar[i]
+#   y = taom_turi[i]
+#   z = ismlar[i]
+#   if y == 'Xamir':
+#     res[z] = x
+# print(res)
